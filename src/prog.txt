@@ -1,0 +1,30 @@
+int kick_start()
+{ 
+$ LARK IMPLEMENTATION $
+set : 'Good Morning Sir/Madam! Welcome to LARK';
+set : 'Please enter your name : ';
+get : n;
+set : 'Enter your age :'; 
+get : age ;
+set : 'Enter your id : ';
+get : id;
+set : 'So here is the summary :';
+set : 'Name : ',n;
+set : 'Age : ',age;
+set : 'Id : ',id;
+set : 'Enter two numbers to swap : ';
+get : a,b;
+a=a+b; $ Swapping $
+b=a-b;
+a=a-b;
+set : 'After swapping we have : ';
+set : 'a= ',a,' b= ',b;
+set : 'Enter the value of c : ';
+get : c;
+set : 'Enter the value of d : ';
+get : d;
+f = (c+d)*7+10.5;
+set : 'The value of f is : ',f;
+set : 'Thank You for using LARK';
+
+}

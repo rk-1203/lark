@@ -1,0 +1,25 @@
+struct student{   
+
+int id;
+char name;
+float marks;
+
+}s1,s2;
+
+s1.id=1001;
+s1.name='Pawan';
+s1.marks=98.7;
+s2.id=1004;
+s2.name='Ritesh';
+s2.marks=98.3;
+
+set : 'Student 1 details are :';
+set : 'Name : ',s1.name;
+set : 'id : ',s1.id;
+set : 'marks : ',s1.marks;
+
+set : 'Student 2 details are :';
+set : 'Name : ',s2.name;
+set : 'id : ',s2.id;
+set : 'marks : ',s2.marks;
+
